@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" parallel="tests">
+  <parameter name="Browser" value="Chrome"/>
+  <test name="Test2(failed)" parallel="tests">
+    <parameter name="Browser" value="Chrome"/>
+    <classes>
+      <class name="com.automation.eCom.scripts.Register">
+        <methods>
+          <include name="executeTest"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.automation.eCom.scripts.Register -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test name="TEst1(failed)" parallel="tests">
+    <parameter name="Browser" value="FF"/>
+    <classes>
+      <class name="com.automation.eCom.scripts.Register">
+        <methods>
+          <include name="executeTest"/>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.automation.eCom.scripts.Register -->
+    </classes>
+  </test> <!-- TEst1(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

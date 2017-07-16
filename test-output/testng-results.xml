@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37788" started-at="2017-07-15T19:51:21Z" finished-at="2017-07-15T19:51:58Z">
+    <groups>
+    </groups>
+    <test name="TEst1" duration-ms="37788" started-at="2017-07-15T19:51:21Z" finished-at="2017-07-15T19:51:58Z">
+      <class name="com.automation.eCom.scripts.Register">
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:com.automation.eCom.scripts.Register@a2431d0]" name="launchBrowser" is-config="true" duration-ms="15210" started-at="2017-07-15T15:51:21Z" finished-at="2017-07-15T15:51:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="executeTest()[pri:0, instance:com.automation.eCom.scripts.Register@a2431d0]" name="executeTest" duration-ms="20886" started-at="2017-07-15T15:51:36Z" finished-at="2017-07-15T15:51:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- executeTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.automation.eCom.scripts.Register@a2431d0]" name="closeBrowser" is-config="true" duration-ms="1649" started-at="2017-07-15T15:51:57Z" finished-at="2017-07-15T15:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.automation.eCom.scripts.Register -->
+    </test> <!-- TEst1 -->
+  </suite> <!-- Default suite -->
+</testng-results>
