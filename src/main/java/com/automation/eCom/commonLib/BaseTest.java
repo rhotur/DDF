@@ -23,6 +23,9 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 
 public class BaseTest {
+	
+	
+	
  protected WebDriver driver;
  
  protected int rowCount;
